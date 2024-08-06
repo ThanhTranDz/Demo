@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    color: black;
+}
+.gap_18{
+    gap: 18px;
+}
+.flex{
+    display: flex;
+}
+.header{
+    height: 65px;
+    width: 100vw;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+
+}
+
+
+.prompt{
+    margin-left: 25px;
+    width: 350px;
+    height: 100vh;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-right: 25px;
+    padding: 15px;
+}
+
+.selection{
+}
+
+.selection p:hover {
+    cursor: pointer;
+}
+
+.input_prompt{
+    
+    height: 75px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 0px;
+}
+
+.input_prompt input{
+    padding: 0px;
+    border: none;
+}
+
+.input_prompt input::placeholder  {
+    
+    text-indent: 10px;
+}
+
+input[type="text"]{
+    text-indent: 10px;
+}
+.image_generate{
+    width: 80vw;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+.style-select{
+    bottom: 0;
+    right: 0;
+}
+
+select {
+    height: 32px;
+    
+}
+
+.aspect-ratio {
+    width: 100%;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.number{
+    width: 100%;
+    gap: 10px;
+}
+
+.box{
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.upgrade{
+    border-radius: 5px;
+    height: 32px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.generate{
+    margin-top: 15px;
+}
+
+.credit{
+    font-size: smaller;
+}
+
+.create-button{
+    margin-top: 3px;
+    height: 36px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}

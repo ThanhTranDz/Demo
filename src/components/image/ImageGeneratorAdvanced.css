@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    color: black;
+}
+
+.blurred {
+    filter: blur(5px);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Màu nền làm mờ */
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.gap_18 {
+    gap: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    height: 65px;
+    width: 100vw;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+
+}
+
+
+.input_prompt input {
+    height: 75px;
+    width: 350px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 0px;
+}
+
+.input_prompt .negative_prompt input::placeholder {
+    text-indent: 10px;
+}
+
+input[type="text"] {
+    text-indent: 10px;
+}
+
+.negative_prompt input{
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 0px;
+
+}
+
+.selection {
+
+}
+
+.selection p:hover {
+    cursor: pointer;
+}
+
+.more-option {
+    width: 80vw;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.aspect-ratio {
+    width: 100%;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.number{
+    width: 100%;
+    gap: 10px;
+}
+
+.box{
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.seed input{
+    width: 100%;
+}
+
+.generate{
+    margin-top: 15px;
+}
+
+.create-button{
+    margin-top: 3px;
+    height: 36px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.steps input[type="text"] {
+    text-indent: 0;
+}
+
+.scale input[type="text"] {
+    text-indent: 0;
+
+}
